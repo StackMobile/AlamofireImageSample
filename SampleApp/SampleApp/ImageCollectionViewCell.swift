@@ -28,5 +28,8 @@ class ImageCollectionViewCell: UICollectionViewCell
         
         // load the image asynchronously in the background
         self.imageView?.af_setImage(withURL: imageURL)
+        
+        // UNCOMMENT THIS LINE FOR A STATIC IMAGE
+        // self.imageView?.image = #imageLiteral(resourceName: "vette")
     }
 }
