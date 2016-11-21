@@ -1,0 +1,5 @@
+# Alamofire
+github "Alamofire/Alamofire" ~> 4.1.0
+
+## AlamofireImage Library used for downloading images async in the app
+github "Alamofire/AlamofireImage" ~> 3.1.0
